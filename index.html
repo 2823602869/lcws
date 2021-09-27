@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lcw's Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- 设置浏览器图标 -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Description">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 默认主题 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+</head>
+
+<body>
+    <!-- 定义加载时候的动作 -->
+    <div id="app">加载中...</div>
+
+    <script>
+        window.$docsify = {
+            // 项目名称
+            name: 'Lcw\'s Blog',
+            // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
+            repo: 'https://github.com/njleonzhang/docsify-edit-on-github',
+
+            plugins: [
+                // EditOnGithubPlugin.create(docBase, docEditBase, title),
+            ],
+            // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
+            loadSidebar: true,
+            // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
+            loadNavbar: true,
+            // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
+            coverpage: true,
+            // 最大支持渲染的标题层级
+            // maxLevel: 4,
+            // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级，建议配置为1或者2
+            subMaxLevel: 2,
+
+            // 页面滚动回顶部
+            scrollToTop: {
+                auto: true,
+                text: 'Top',
+                right: 15,
+                bottom: 15,
+                offset: 500
+            },
+            // 搜索配置
+            search: {
+                maxAge: 86400000,
+                paths: 'auto',
+                placeholder: '🔍搜索',
+                noData: '😞 找不到结果',
+                depth: 4,
+                hideOtherSidebarContent: false,
+                namespace: 'Lcw\'s Blog',
+            },
+            // 分页导航
+            pagination: {
+                previousText: '上一章节',
+                nextText: '下一章节',
+                crossChapter: true,
+            },
+
+        }
+    </script>
+    <!-- 评论 -->
+    <script>
+        const gitalk = new Gitalk({
+            clientID: 'Github Application Client ID',
+            clientSecret: 'Github Application Client Secret',
+            repo: 'Github repo',
+            owner: 'Github repo owner',
+            admin: ['Github repo collaborators, only these guys can initialize github issues'],
+            // facebook-like distraction free mode
+            distractionFreeMode: false,
+        })
+    </script>
+    <!-- 评论 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <!-- docsify的js依赖 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <!-- emoji表情支持 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <!-- 图片放大缩小支持 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <!-- 搜索功能支持 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- Java代码高亮 -->
+    <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
+    <!-- 页面滚动回顶部的插件 -->
+    <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+    <!-- 复制代码到剪贴板 -->
+    <script src="//unpkg.com/docsify-copy-code"></script>
+    <!-- 字数统计 -->
+    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+    <!-- 分页导航 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+</body>
+
+</html>

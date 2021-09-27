@@ -1,39 +1,29 @@
-# lcw
+## 公告<Badge text="beta" type="warning"/> <Badge text="reco主题"/>📖
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+> 你若要喜爱你自己的价值，你就得给世界创造价值。——歌德
 
-#### 软件架构
-软件架构说明
+::: tip
 
+**技术文档**正式更名为**Lcw's Blog**🚀
 
-#### 安装教程
+**技术博客**请点击右上角导航栏的**桃李博客**
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+:::
 
-#### 使用说明
+::: warning
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+以前技术博客的内容会不断搬运至此🚌
 
-#### 参与贡献
+访问老版博客请点击右下角，或者点击导航栏的桃李博客
+点击 [桃李博客](https://ataoli.cn)🙉
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+:::
+
+<details class="custom-block details" open="" style="display: block; position: relative; border-radius: 2px; margin: 1em 0px; padding: 1rem; background-color: var(--code-color); color: rgb(36, 36, 36); font-family: Ubuntu, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><summary style="font-weight: 550; font-size: 16px; margin-top: 0px; padding-top: 11px; padding-bottom: 11px; background-color: rgba(117, 130, 107, 0.26); border-radius: 5px; outline: none; cursor: pointer;">其他</summary><p style="line-height: 2.2; margin-bottom: 0px; padding-bottom: 0px;">本博客可能在 IE / Edge 中不生效</p></details>
+
+## 寄语🎉
+
+​    常听人说，年轻就是资本，因为年轻，所以有无限的可能。这句话，我只同意一半。我一直觉得，年轻不是资本，年轻又努力才会成为资本。清楚自己想要的，然后一步一步接近目标，既有雄心万丈的抱负、水滴石穿的坚持，也要有不轻易服输的勇气和迎难而上的韧劲！
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
