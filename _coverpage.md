@@ -8,5 +8,5 @@
 
  [![Github](https://img.shields.io/github/forks/2823602869/lcws?style=social)](https://github.com/2823602869/lcws/fork)&nbsp;&nbsp;[![Github](https://img.shields.io/github/stars/2823602869/lcws?style=social)](https://github.com/2823602869/lcws/stargazers)&nbsp;&nbsp;[![GitHub issues](https://img.shields.io/github/issues/badges/shields?color=green)](https://github.com/2823602869/lcws/issues)
 
-[GitHub](https://gitee.com/DBorg/lcw/)
+[GitHub](https://github.com/2823602869/lcws/)
 [开始阅读](/README)
